@@ -1,0 +1,130 @@
+Body{
+	font-family: arial,calibri;
+	background: linear-gradient(to right,#6a11cb,#2575fc);
+	color: #333;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+    }
+	
+.registro-container{
+	background-color:#fff;
+	padding:30px 40px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 15px rgba(0,0,0,0,2);
+	width: 400px;
+    }
+
+ h2{
+	text-align: center;
+	color: #2575fc;
+    margin-bottom: 20px;
+    }
+	
+ form{
+	display:flex;
+	flex-direction:column;
+    }
+	
+ label{
+	 margin-top: 10px;
+	 font-weight: bold;
+    }
+	
+ label{
+	 margin-top: 1opx;
+	 font-weight: bold;
+    }
+ input,select{
+	 padding: 10px;
+	 margin-top: 5px;
+	 border: 1px solid #ccc;
+	 border-radius: 5px;
+    }
+	 
+ input:focus{
+	 border-color: #2575fc;
+	 outline: none;
+    }
+	
+ .boton{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #2575fc;
+	color:white;
+	border:none;
+	border-radius: 5px;
+	font-size: 16px;
+	wrsor: pointer;
+    }
+	
+.boton:hover{
+	background-color: #1a5fdo;
+    }
+	
+.nota {
+	text-align:center;
+	margin-top:15px;
+	font-size:0.9em;
+	color:#555;
+    }
+
+
+  
+  
+  
+</html><html>
+<head>
+<title> formulario </title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+<div class="registro-container">
+
+<h2> registro de usuario </h2>
+<form method="post">
+<label for="nombre">nombre:</label>
+<input type="text" id="nombre" name="nombre"
+Placeholder="ingresa tu nombre" required>
+
+<label for="apellido">apellido:</label>
+<input type="text" id="apellido" name="apellido"
+Placeholder="ingresa tu apellido" required>
+
+<label for="usuario">usuario:</label>
+<input type="text" id="usuario" name="apellido"
+Placeholder="ingresa tu usuario" required>
+
+<label for="contrasena">contrasena:</label>
+<input type="password" id="contrasena"
+Name="contrasena" placeholder="minimo 6 caracteres">
+
+<label for="fecha"> fecha de nacimiento:</label>
+<input type="date" id="fecha" name="fecha"
+Required>
+
+<label for="genero"> genero:</label>
+<select id="genero" name="genero" required>
+<option value=""> seleccione...</option>
+<option value="maculino">masculino </option>
+<option value="femenino">femenino </option>
+<option value="otro">otro </option>
+</select>
+
+<label>
+<input type="checkbox" name="terminos"
+Required> acepto los terminos </label>
+
+<button type="submit" class="boton">
+Registrarme </button>
+
+<p class="nota"> tienes una cuenta ?
+<a href=""> inicia sesion aqui </a></p>
+</div>
+</body>
+
+
+ 
